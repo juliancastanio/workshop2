@@ -1,0 +1,41 @@
+div.navbar-header {
+  position: absolute;
+  left: 45%; }
+
+.navbar-brand > img {
+  max-height: 200%; }
+
+.navbar-default {
+  color: black;
+  background-color: inherit;
+  border-style: none; }
+
+.breadcrumb {
+  background-color: inherit;
+  border-radius: 0px;
+  border-bottom: 1px solid silver;
+  padding: 50px 0px; }
+  .breadcrumb a {
+    font-family: "Open Sans", sans-serif;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px; }
+
+.breadcrumb > li {
+  display: inline-block;
+  padding: 0px 15px; }
+
+.breadcrumb > li + li:before {
+  content: ""; }
+
+.form-control {
+  border-style: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold; }
+
+.btn {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */

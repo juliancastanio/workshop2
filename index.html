@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<form class="navbar-form navbar-left">
+				<div class="form-group">
+					<span class="ion-search"></span>
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+			</form>			    
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="assets/logo.png" class="img-responsive"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="ion-bag"> Items</span></a></li>
+					<li><a class="btn" href="#">CAD</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+			<div class="row">
+				<ol class="breadcrumb text-center">
+					<li><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>	
+						</ul></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Theme Features</a></li>
+						<li><a href="#">Account</a></li>
+
+					</ol>
+
+				</div>	
+
+			</div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<div class="row">
+
+				<!-- LADO IZQUIERDO -->
+
+				<section class="col-md-2 col-xs-12">
+
+					<div class="sidebar">
+						<ul class="sidebar-nav">
+							<li class="sidebar-brand">
+								<a href="#">
+									Shop
+								</a>
+							</li>
+							<li class="btn" data-toggle="collapse" data-target="#demo">
+								Men
+								<div id="demo" class="collapse">
+									<ul >
+										<li>Classics</li>
+										<li>Classics</li>
+										<li>Classics</li>
+										<li>Classics</li>
+
+									</ul>
+								</div>
+							</li>
+							
+							<li
+							class="btn " data-toggle="collapse" data-target="#demo1">
+							Women
+							<div id="demo1" class="collapse">
+								<ul >
+									<li>Classics</li>
+									<li>Classics</li>
+									<li>Classics</li>
+									<li>Classics</li>
+									<li>
+										<a href="#">Lookbook</a>
+										<ul>
+											<li>FW 2014</li>
+										</ul>
+									</li>      
+									
+								</ul>
+							</div>
+						</li>
+					</ul>
+
+				</div>				 
+
+
+			</section>
+
+			<!-- LADO DERECHO -->
+
+			<section class="col-md-10 col-xs-12"">
+
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="assets/0.jpg" alt="...">
+							<div class="carousel-caption">
+								<p>Bold and Beautiful</p>
+								<h2>Autumm styles</h2>
+								<p>By Faraday Eyewear</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="assets/0.jpg" alt="...">
+							<div class="carousel-caption">
+								<p>Bold and Beautiful</p>
+								<h2>Autumm styles</h2>
+								<p>By Faraday Eyewear</p>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>				
+					<div class="row">
+						<article class="col-md-6 col-xs-12 classics">
+							<h3>Classics</h3>
+							<p>Shop now</p>
+						</article>
+						<article class="col-md-6 col-xs-12 Popular">
+							<h3>Popular</h3>
+							<p>Shop now</p>
+						</article>
+
+					</div>
+
+
+					<div class="row">
+						<h2>Featured Products</h2>
+						<article class="col-md-3 col-xs-12 classics">
+							<img src="assets/5.jpg" class="img-responsive">
+							<p>Warby Parker</p>
+							<h4>Clara</h4>
+							<span>$ 235.00 CAD</span>
+						</article>
+						<article class="col-md-3 col-xs-12 Popular">
+							<img src="assets/2.jpg" class="img-responsive">
+							<p>Warby Parker</p>
+							<h4>Edgeworth</h4>
+							<span>$ 235.00 CAD</span>
+						</article>
+						<article class="col-md-3 col-xs-12 Popular">
+							<img src="assets/3.jpg" class="img-responsive">
+							<p>Warby Parker</p>
+							<h4>Kidd</h4>
+							<span>$ 235.00 CAD</span>
+						</article>	
+						<article class="col-md-3 col-xs-12 Popular">
+							<img src="assets/4.jpg" class="img-responsive">
+							<p>Warby Parker</p>
+							<h4>Laurel</h4>
+							<span>$ 235.00 CAD</span>
+						</article>		
+					</div>
+
+
+					<div class="row">
+						<article class="col-md-6 col-xs-12">
+							<h3>Welcome to Faraday Eyewear</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							</article>
+
+							<article class="col-md-6 col-xs-12">
+								<img src="assets/1.png" class="img-responsive">
+
+							</article>	
+
+						</div>		
+
+						<div class="row">
+							
+							<article class="col-xs-12">
+								
+								<p>All Sunwear</p>
+								<h5> 50% off</h5>
+								<p>Limited Time Offer</p>
+
+							</article>
+						</div>								
+
+						<div class="row">
+							<h2>News</h2>
+							<div class="col-md-4 col-xs-12">
+								<div class="thumbnail">
+									<h3>Behind the Scenes</h3>
+									<img src="http://placehold.it/350x150/" alt="..." class="img-responsive">
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+											<p><a href="#" class="btn" role="button">Read more</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-xs-12">
+										<div class="thumbnail">
+											<h3>Behind the Scenes</h3>
+											<img src="http://placehold.it/350x150/" alt="..." class="img-responsive">
+											<div class="caption">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+													<p><a href="#" class="btn" role="button">Read more</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-xs-12">
+												<div class="thumbnail">
+													<h3>Behind the Scenes</h3>
+													<img src="http://placehold.it/350x150/" alt="..." class="img-responsive">
+													<div class="caption">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+															tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+															quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+															consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+															<p><a href="#" class="btn" role="button">Read more</a>
+															</div>
+														</div>
+													</div>    
+												</div>
+
+												<div class="row">
+													<h2>Featured Collections</h2>
+													<article class="col-md-4 col-xs-12">
+														<img src="http://placehold.it/150x150/" class="img-responsive">
+														<p>Lookbook</p>
+														
+													</article>
+
+													<article class="col-md-4 col-xs-12">
+														<img src="http://placehold.it/150x150/" class="img-responsive">
+														<p>Legacy Line</p>
+														
+													</article>
+
+													<article class="col-md-4 col-xs-12">
+														<img src="http://placehold.it/150x150/" class="img-responsive">
+														<p>Sunwear</p>
+														
+													</article>
+
+													<div class="row">
+														<article class="col-md-4 col-xs-12">
+															<p>Frame Special</p>
+															<p>2 for 1</p>
+															<p>Limited time</p>
+															
+														</article>
+
+														<article class="col-md-4 col-xs-12">
+															<p>Exclusive</p>
+															<p>Nikon Lenses</p>
+															<p>Now available</p>
+															
+														</article>
+
+														<article class="col-md-4 col-xs-12">
+															<p>Our acclaimed</p>
+															<p>Support</p>
+															<p>Team is standing by</p>
+
+															
+														</article>
+														
+
+													</div>
+
+												</section>				
+
+												<footer class="container">
+													<div class="row">
+														<article class="col-md-4 col-xs-12">
+
+															<div class="row">
+																
+
+																<div class="sidebar col-xs-6">
+																	<ul class="sidebar-nav">
+																		<li>Navigate</li>
+																		<li><a href="#">Home</a></li>
+																		<li><a href="#">Products</a></li>
+																		<li><a href="#">Blog</a></li>
+																		<li><a href="#">About us</a></li>
+																		<li><a href="#">Theme Features</a></li>        
+																	</ul>
+																</div>
+
+
+																<div class="sidebar col-xs-6">
+																	<ul class="sidebar-nav">
+																		<li>Support</li>
+																		<li><a href="#">Customer Service</a></li>
+																		<li><a href="#">FAQ</a></li>
+																		<li><a href="#">Free Shipping</a></li>
+																		<li><a href="#">Returns</a></li>
+																		<li><a href="#">Privacy Policy</a></li>        
+																	</ul>
+																</div>
+
+															</div>	
+
+														</article>
+
+														<article class="col-md-4 col-xs-12">
+															<p>Twitter</p>
+															<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New milestone achieved: over 2 BILLION active devices! <a href="https://t.co/CkcjNwL4fo">https://t.co/CkcjNwL4fo</a> <a href="https://twitter.com/hashtag/mobiledev?src=hash">#mobiledev</a> <a href="https://twitter.com/hashtag/2Billion2016?src=hash">#2Billion2016</a> <a href="https://t.co/njY4CczhSg">pic.twitter.com/njY4CczhSg</a></p>&mdash; Fabric (@fabric) <a href="https://twitter.com/fabric/status/718128881274789888">April 7, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+															
+
+														</article>
+
+														<article class="col-md-4 col-xs-12">
+															<p>Newsletter</p>
+															<form class="navbar-form">
+																<div class="form-group">
+																	<input type="text" class="form-control" placeholder="your@email.com">
+																</div>
+															</form>
+															<p>Connect with us</p>
+															<ol>
+																<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+																<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+																<li><a href="#"><span class="ion-social-pinterest-outline"></span></a></li>
+																<li><a href="#"><span class="ion-social-instagram-outlook"></span></a></li>
+																<li><a href="#"><span class="ion-email"></span></a></li>		
+															</ol>		
+
+														</article>
+														
+
+													</div>
+												</footer>
+
+
+												<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+												<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+												<!-- Include all compiled plugins (below), or include individual files as needed -->
+												<!-- Latest compiled and minified JavaScript -->
+												<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+												<script>window.twttr = (function(d, s, id) {
+													var js, fjs = d.getElementsByTagName(s)[0],
+													t = window.twttr || {};
+													if (d.getElementById(id)) return t;
+													js = d.createElement(s);
+													js.id = id;
+													js.src = "https://platform.twitter.com/widgets.js";
+													fjs.parentNode.insertBefore(js, fjs);
+
+													t._e = [];
+													t.ready = function(f) {
+														t._e.push(f);
+													};
+
+													return t;
+												}(document, "script", "twitter-wjs"));</script>		
+											</body>
+											</html>
