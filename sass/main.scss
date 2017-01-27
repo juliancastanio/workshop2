@@ -1,5 +1,9 @@
 $fontUno: 'PT Serif', serif;
 $fontDos: 'Open Sans', sans-serif;
+$colorTres: #B7BCC2;
+$colorCuatro: #D1C4B4;
+$colorAzul: #6DA2BD;
+$colorCinco: #94A0B0;
 
 div.navbar-header{
 	position: absolute;
@@ -20,7 +24,7 @@ div.navbar-header{
     background-color: inherit;
     border-radius: 0px;
     border-bottom: 1px solid silver;
-	padding: 50px 0px;
+	padding: 70px 0px 30px 20px;
 
     a{
     	font-family: $fontDos;
@@ -34,6 +38,10 @@ div.navbar-header{
 .breadcrumb>li {
     display: inline-block;
     padding: 0px 15px;
+
+    @media (max-width: 768px){
+        padding:0px;
+    }
 }
 
 .breadcrumb > li + li:before {
@@ -48,5 +56,298 @@ div.navbar-header{
 }
 
 .btn{
-	display: block;
+	width: 100%;
+}
+
+#categorias{
+    color: $colorAzul;
+    margin: 0;
+}
+
+#categorias:hover{
+    color: lighten($colorAzul, 10%)
+}
+
+#lookbook{
+    color: black;
+    font-weight: bold;
+}
+
+#lookbook:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-izq{
+    text-align: left;
+    padding: 10px ;
+}
+
+#demo ul li,#demo1 ul li,{
+    padding: 5px;
+}
+
+.ion-chevron-right{
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.carousel{
+    margin-bottom:10px; 
+}
+
+.carousel-caption{
+    top: 30%;
+    p,h2{
+        text-align:left;
+    }
+    p{
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-family:$fontUno; 
+        font-size: 50px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+}
+
+.row{
+    margin: 0px;
+}
+
+
+.classics{
+    border: 10px solid white;
+    padding: 0px;
+    background-image: url('../assets/home-feature-4.png') ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    /*margin: 5px;*/
+    h3{
+        font-family:$fontUno; 
+        font-weight: bold;
+
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 55px;
+        padding-bottom: 20px; 
+        color: white;
+    }
+    p{
+        padding-left: 30px;
+        text-transform: uppercase;
+        padding-bottom: 70px ;
+        color: white;
+    }
+}
+
+.Popular{
+    /*margin-left: 25px;*/
+    border: 10px solid white;
+    /*margin: auto;*/   
+    padding: 0px;
+    background-image: url('../assets/home-feature-5.png') ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    h3{
+        font-family:$fontUno; 
+        font-weight: bold;
+
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 55px;
+        padding-bottom: 20px; 
+        color: white;
+    }
+    p{
+        padding-left: 30px;
+        text-transform: uppercase;
+        padding-bottom: 70px ;
+        color: white;
+    }
+}
+
+.featured{
+    margin-bottom: 30px;
+    h2{
+        color: lightgrey;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 30px 0px;
+    }
+   article{
+    img{
+        margin-bottom: 10px;
+    }
+    p{
+        color:$colorAzul;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    h4{
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 17px;
+        font-family:$fontUno; 
+    }
+    span{
+        color: grey;
+        margin-bottom: 15px;
+    }
+   } 
+}
+
+.welcome{
+    p{
+        color: grey;
+        line-height: 23px;
+    }
+    h3{
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-family:$fontUno;    
+    }
+}
+
+.promo{
+    article{
+
+        background-image: url('../assets/6.png');
+        background-repeat: no-repeat;
+        background-size:  contain;
+        div{
+            padding: 150px ;     
+            h5{
+                font-family:$fontUno; 
+                font-weight: bold;
+
+                font-size: 40px;
+                /*padding-left: 30px;*/
+                /*padding-top: 55px;*/
+                padding-bottom: 20px; 
+                color: white;
+            }
+            p{
+                /*padding-left: 30px;*/
+                text-transform: uppercase;
+                padding-bottom: 10px ;
+                color: white;
+            }
+        }
+    }
+}
+
+.news{
+     h2{
+        color: lightgrey;
+        font-size: 15px;
+        text-transform: uppercase;
+        /*margin: 10px 0px;*/
+    }
+    .thumbnail{
+        border: none;
+        h3{
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 17px;
+            font-family:$fontUno; 
+        }
+        p{
+            color: grey;
+            line-height: 23px;
+        }
+
+        .btn{
+            text-align: left;
+            padding-left:0;
+            text-transform: uppercase;
+            color:$colorAzul;
+            font-size: 12px;
+            font-weight: bold; 
+        }
+    }
+}
+
+.collections{
+     h2{
+        color: lightgrey;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 50px 0px;
+    }
+}
+
+.cuadrados{
+
+    h6{
+        font-family:$fontUno; 
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        /*padding-left: 30px;*/
+        padding-top: 10px;
+        padding-bottom: 20px; 
+        color: white;
+    }
+
+    p{
+
+        padding-top: 30px;
+        text-transform: uppercase;
+        padding-bottom: 10px ;
+        color: white;
+    }   
+    span{
+
+        padding-top: 10px;
+        text-transform: uppercase;
+        margin-bottom: 30px ;
+        color: white;
+    }   
+    .cuadrado1{
+        background-color: $colorTres;
+        border: 13px solid white;
+        box-sizing:border-box;
+        padding-bottom: 30px;
+    }
+
+    .cuadrado2{
+        background-color: $colorCinco;
+        border: 13px solid white;
+        padding-bottom: 30px;
+    }
+
+    .cuadrado3{
+        padding-bottom: 30px;
+        background-color: $colorCuatro;
+        border: 13px solid white;
+    }
+}
+
+.footer{
+    padding-top: 20px;
+    border-top: 1px solid silver;
+    .sidebar-nav{
+        li{
+            text-transform: uppercase;
+            a{
+                text-transform: capitalize;
+                color: grey;
+            }
+        }
+    }
+}
+
+.social{
+    float: left;
+    padding: 0px 10px;
+    font-size: 23px;
 }
